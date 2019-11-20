@@ -1,0 +1,44 @@
+.New-Todo-Form {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.New-Todo-Form label {
+    min-width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.New-Todo-Form input {
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 4px 4px;
+    font-size: initial;
+    margin-bottom: 25px;
+    width: 15rem;
+}
+
+.New-Todo-Form button {
+    padding: 4px 4px;
+    border: none;
+    background: #ff6666;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-left: 12px;
+    width: 5rem;
+}
+
+.New-Todo-Form button:hover {
+    background: #ff5e6e;
+    cursor: pointer;
+}
+
+.New-Todo-Form input,
+.New-Todo-Form button {
+    font-family: "Quicksand", sans-serif;
+    height: 3rem;
+}
